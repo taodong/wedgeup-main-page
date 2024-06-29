@@ -1,6 +1,11 @@
 .redirect-background {
     background-image: url('../images/background.png');
-    background-size: cover;
-    width: 100%;
-    height: auto;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    max-width: 1024px;
+    max-height: 1024px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #2e7eed;
 }
