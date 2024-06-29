@@ -7,5 +7,11 @@
     max-height: 1024px;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #2e7eed;
+    background-color: #5DE2E7;
+}
+
+.loader img {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
 }
